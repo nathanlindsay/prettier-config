@@ -1,0 +1,12 @@
+{
+	"name": "@nathanlindsay/prettier-config",
+	"type": "module",
+	"version": "0.0.1",
+	"main": "prettier.config.js",
+	"devDependencies": {
+		"prettier": "^3.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
