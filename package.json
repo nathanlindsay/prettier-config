@@ -1,12 +1,14 @@
 {
 	"name": "@nathanlindsay/prettier-config",
 	"type": "module",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "prettier.config.js",
-	"devDependencies": {
-		"prettier": "^3.0.0"
-	},
 	"publishConfig": {
 		"access": "public"
+	},
+	"peerDependencies": {
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"prettier-plugin-tailwindcss": "^0.5.9"
 	}
 }
